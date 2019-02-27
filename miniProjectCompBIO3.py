@@ -4,7 +4,7 @@ from Bio import SeqIO
 currentDir = os.popen('pwd').read().rstrip()
 #Gets path of current working directory to avoid hardcoding
 
-path = (currentDir+ "/OptionA_Carlee_BettlerTEST4/")
+path = (currentDir+ "/OptionA_Carlee_Bettler/")
 #Sets path to inside of OptionA folder
 #Note that optionA folder can be renamed if your name is not Carlee Bettler :)
 #Note: Don't run python3 command (as explained in ReadME) from inside OptionA folder, will mess up/duplicate path name. Not sure how you would do this, as code runs in one go.... but don't
