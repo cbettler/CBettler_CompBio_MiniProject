@@ -200,7 +200,7 @@ os.system("cufflinks -p 20 accepted_hits.bam")
 #If the tophat command above was not ran to completion, this will get frozen at 0%
 #Must have cufflinks installed
 #Cufflinks 'assembles' mapped reads into transcripts
-#Note: I realize I do not have the final log file command done, but this is because I could never get my cufflinks command to finish running, as my tophat command would always lose connection before it completed running,
+#Note: I realize I do not have the Option1.fpkm file done, but this is because I could never get my cufflinks command to finish running, as my tophat command would always lose connection before it completed running,
 #and would only sometimes return an accepted_hits.bam file, but this would be incomplete 
 
 
