@@ -192,7 +192,7 @@ def bowTiePrep(link):
 bowTiePrep(link3)
 
 os.system("tophat2 --no-novel-juncs -p 20 -o /home/cbettler/OptionA_Carlee_Bettler/ProkkaOutput EcoliK12 SRR1411276.fastq")
-#NOTE:This command is VERY SLOW!!! If it gets frozen or a pip breaks, hit cntrl+ C. It may say a pipe is broken, but is it has not stopped/lost connection, keep letting it run
+#Note:This command is VERY SLOW!!! If it gets frozen or a pip breaks, hit cntrl+ C. It may say a pipe is broken, but is it has not stopped/lost connection, keep letting it run
 #Must have tophat installed
 #Tophat aligns annotated genome to a reference genome
 
