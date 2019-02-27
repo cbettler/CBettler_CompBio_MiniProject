@@ -192,7 +192,7 @@ def bowTiePrep(link):
 bowTiePrep(link3)
 
 os.system("tophat2 --no-novel-juncs -p 20 -o /home/cbettler/OptionA_Carlee_Bettler/ProkkaOutput EcoliK12 SRR1411276.fastq")
-#Note:This command is VERY SLOW!!! If it gets frozen or a pip breaks, hit cntrl+ C. It may say a pipe is broken, but is it has not stopped/lost connection, keep letting it run
+#Note:This command is VERY SLOW!!! If it gets frozen or says the connection pipe has broken, hit cntrl+ C. It may say "samtools view: error closing standard output: -1", but if it has not stopped/lost connection, keep letting it run
 #Must have tophat installed
 #Tophat aligns annotated genome to a reference genome
 
@@ -200,7 +200,8 @@ os.system("cufflinks -p 20 accepted_hits.bam")
 #If the tophat command above was not ran to completion, this will get frozen at 0%
 #Must have cufflinks installed
 #Cufflinks 'assembles' mapped reads into transcripts
-#Note: I realize I do not have the final log file command done, but this is because I could never get my cufflinks command to finish running
+#Note: I realize I do not have the final log file command done, but this is because I could never get my cufflinks command to finish running, as my tophat command would always lose connection before it completed running,
+#and would only sometimes return an accepted_hits.bam file, but this would be incomplete 
 
 
 
