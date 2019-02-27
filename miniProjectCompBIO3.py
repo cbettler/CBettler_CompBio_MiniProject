@@ -99,7 +99,7 @@ def Prokka(path):
     #This function uses Prokka, which must be installed, to annotate this assembly and writes path to log file.
     
     os.system("prokka --force --outdir "+path+"ProkkaOutput --genus Escherichia --locustag ECOL  longFastas.fasta")
-    #--force forces it to old files with new files with the current date
+    #--force forces it to replace old files with new files with the current date
     #Uses the Escherichia genus database
     
     log = open(path + "OptionA.log", "a+")
