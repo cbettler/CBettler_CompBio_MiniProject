@@ -90,7 +90,7 @@ def basePairCount(path):
     log = open(path + "OptionA.log", "a+")
 
     for i in range(1):
-        log.write("There are "+ str(numBP)+ " bp in the assembly"+'\n\n')
+        log.write("There are "+ str(numBP)+ " bp in the assembly."+'\n\n')
     #writes total number of basepairs to log file
 
 basePairCount(path)
